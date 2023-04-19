@@ -3,112 +3,286 @@ const phrases = [
   {
     id: 1,
     text: "not all who wander are lost",
-    by: "Gandalf",
-    categories: ["Fantasy", "Lord of the Rings"],
+    by: {
+      id: 1,
+      name: "Gandalf",
+    },
+    categories: [
+      {
+        id: 1,
+        name: "Fantasy",
+      },
+      {
+        id: 2,
+        name: "Lord of the Rings",
+      },
+    ],
   },
   {
     id: 2,
     text: "one ring to rule them all",
-    by: "Sauron",
-    categories: ["Fantasy", "Lord of the Rings"],
+    by: {
+      id: 2,
+      name: "Suaron",
+    },
+    categories: [
+      {
+        id: 1,
+        name: "Fantasy",
+      },
+      {
+        id: 2,
+        name: "Lord of the Rings",
+      },
+    ],
   },
   {
     id: 3,
     text: "Moonlight drowns out all but the brightest stars",
-    by: "J.R.R Tolkien",
-    categories: ["Fantasy", "Lord of the Rings"],
+    by: {
+      id: 3,
+      name: "J.R.R Tolkein",
+    },
+    categories: [
+      { id: 1, name: "Fantasy" },
+      {
+        id: 2,
+        name: "Lord of the Rings",
+      },
+    ],
   },
   {
     id: 4,
     text: "Where there's life there is hope, and no need of vittles",
-    by: "J.R.R Tolkien",
-    categories: ["Fantasy", "Lord of the Rings"],
+    by: {
+      id: 3,
+      name: "J.R.R Tolkein",
+    },
+    categories: [
+      { id: 1, name: "Fantasy" },
+      {
+        id: 2,
+        name: "Lord of the Rings",
+      },
+    ],
   },
   // marvel quotes
   {
     id: 5,
     text: "With great power comes great responsibility",
-    by: "Uncle Ben",
-    categories: ["Marvel", "Spider Man", "Superhero"],
+    by: {
+      id: 4,
+      name: "Uncle Ben",
+    },
+    categories: [
+      {
+        id: 3,
+        name: "Marvel",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
   {
     id: 6,
     text: "It's not about how much we lost, it's about how much we get back",
-    by: "Tony Stark",
-    categories: ["Marvel", "Iron Man", "Superhero"],
+    by: {
+      id: 5,
+      name: "Tony Stark",
+    },
+    categories: [
+      {
+        id: 3,
+        name: "Marvel",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
   // DC quotes
   {
     id: 7,
     text: "I'm Batman",
-    by: "Batman",
-    categories: ["DC", "Batman", "Superhero"],
+    by: {
+      id: 6,
+      name: "Batman",
+    },
+    categories: [
+      {
+        id: 7,
+        name: "DC",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
   {
     id: 8,
     text: "I am vengeance",
-    by: "Batman",
-    categories: ["DC", "Batman", "Superhero"],
+    by: {
+      id: 6,
+      name: "Batman",
+    },
+    categories: [
+      {
+        id: 7,
+        name: "DC",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
   // the boys quotes
   {
     id: 9,
     text: "Yeah I can talk to fish. So What? How often do you need to be saved by a school of salmon?",
-    by: "The deep",
-    categories: ["The Boys", "Superhero"],
+    by: {
+      id: 7,
+      name: "The Deep",
+    },
+    categories: [
+      {
+        id: 9,
+        name: "The Boys",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
   {
     id: 10,
     text: "Sometimes it's hard being superior to every single other person on the planet",
-    by: "homelander",
-    categories: ["Superhero", "The Boys"],
+    by: {
+      id: 8,
+      name: "Homelander",
+    },
+    categories: [
+      {
+        id: 9,
+        name: "The Boys",
+      },
+      {
+        id: 5,
+        name: "Superhero",
+      },
+    ],
   },
 
   // Willow quotes
   {
     id: 11,
     text: "I hate trolls",
-    by: "Willow",
-    categories: ["Fantasy", "Willow"],
+    by: {
+      id: 9,
+      name: "Willow",
+    },
+    categories: [
+      { id: 1, name: "Fantasy" },
+      {
+        id: 11,
+        name: "Willow",
+      },
+    ],
   },
 
   // Music Quotes
   {
     id: 12,
     text: "My daughter is like Sia you can't see her",
-    by: "Chance the Rapper",
-    categories: ["Music", "Hip Hop", "Chance the Rapper"],
+    by: {
+      id: 10,
+      name: "Chance the Rapper",
+    },
+    categories: [
+      {
+        id: 12,
+        name: "Music",
+      },
+      {
+        id: 13,
+        name: "Hip Hop",
+      },
+    ],
   },
   {
     id: 13,
     text: "And if I was thinking I'd be thinking thank god",
-    by: "Wood Brothers",
-    categories: ["Music", "Folk", "Wood Brothers"],
+    by: {
+      id: 11,
+      name: "Wood Brothers",
+    },
+    categories: [
+      {
+        id: 12,
+        name: "Music",
+      },
+      {
+        id: 15,
+        name: "Folk",
+      },
+    ],
   },
   {
     id: 14,
     text: "It's me, LT, like when you heat butter",
-    by: "Little Wayne",
-    categories: ["Music", "Hip Hop", "Little Wayne"],
+    by: {
+      id: 12,
+      name: "Lil' Wayne",
+    },
+    categories: [
+      {
+        id: 12,
+        name: "Music",
+      },
+      {
+        id: 13,
+        name: "Hip Hop",
+      },
+    ],
   },
   {
     id: 15,
     text: "Because here you come again... and here I Go",
-    by: "Dolly Parton",
-    categories: ["Music", "Country", "Dolly Parton"],
+    by: {
+      id: 13,
+      name: "Dolly Parton",
+    },
+    categories: [
+      {
+        id: 12,
+        name: "Music",
+      },
+      {
+        id: 18,
+        name: "Country",
+      },
+    ],
   },
 ];
 
 const users = [
   {
+    id: 1,
     email: "jon@jon.com",
     hashedPassword: "aoidfjoasidjf1209384093248",
   },
   {
+    id: 2,
     email: "jim@jim.com",
     hashedPassword: "aoidfjoasidjf1209384093248",
   },
   {
+    id: 3,
     email: "sandra@sandra.com",
     hashedPassword: "aoidfjoasidjf1209384093248",
   },
@@ -116,27 +290,36 @@ const users = [
 
 const scores = [
   {
-    category: "Music",
+    category: {
+      id: 12,
+      name: "Music",
+    },
     length: "long",
-    userEmail: "jon@jon.com",
-    wpm: 100
+    userId: 1,
+    wpm: 100,
   },
   {
-    category: "Fantasy",
+    category: { id: 1, name: "Fantasy" },
     length: "short",
-    userEmail: "jon@jon.com",
-    wpm: 120
+    userId: 1,
+    wpm: 120,
   },
   {
-    category: "Lord of the Rings",
+    category: {
+      id: 2,
+      name: "Lord of the Rings",
+    },
     length: "short",
-    userEmail: "sandra@sandra.com",
-    wpm: 130
+    userId: 3,
+    wpm: 130,
   },
   {
-    category: "Music",
+    category: {
+      id: 12,
+      name: "Music",
+    },
     length: "mediumn",
-    userEmail: "jim@jim.com",
-    wpm: 130
+    userId: 2,
+    wpm: 130,
   },
 ];
